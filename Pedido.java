@@ -19,7 +19,12 @@ public class Pedido {
         }
         return total;
     }
-
+    public double calcularTotalConDescuento(double descuento) {
+        if (descuento < 0 || descuento > 1) {
+            throw new IllegalArgumentException("El descuento debe estar entre 0 y 1");
+        }
+        return calcularTotal() * (1 - descuento);
+    }
     public List<Producto> getProductos() {
         return productos;
     }
