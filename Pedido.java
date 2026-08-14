@@ -28,4 +28,10 @@ public class Pedido {
     public List<Producto> getProductos() {
         return productos;
     }
+    public double calcularTotalConImpuesto(double impuesto) {
+        if (impuesto < 0) {
+            throw new IllegalArgumentException("El impuesto no puede ser negativo");
+        }
+        return calcularTotal() * (1 + impuesto);
+    }
 }
