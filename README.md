@@ -10,11 +10,12 @@
 
 > **Instrucción:** Cada integrante debe editar esta tabla en su rama de trabajo para incluir sus datos mediante un Pull Request.
 
-| Integrante | Rol Scrum | Perfil de GitHub |
-|---|---|---|
-| Estudiante 1 | rol | [https://github.com/usuario](https://github.com/usuario) |
-| Estudiante 2 | rol | [https://github.com/usuario](https://github.com/usuario) |
-
+| Integrante                       | Rol Scrum             | Perfil de GitHub                                                             |
+|----------------------------------|-----------------------|------------------------------------------------------------------------------|
+| Beiker Romario Jaramillo Giraldo | Scrum Master          | [https://github.com/JaramilloBeiker](https://github.com/JaramilloBeiker)     |
+| Luis Felipe Velasquez Muñoz      | Product Owner         | [https://github.com/FelipeV190](https://github.com/FelipeV190)               |
+| Sarahy Michelle Silva Pinto      | Sprint Planner        | [https://github.com/silvasarahy](https://github.com/silvasarahy)             |
+| Mateo Galindo Bravo              | Configuration Manager | [https://github.com/galindobravomateo](https://github.com/galindobravomateo) |
 ---
 
 ##  Compilación y Ejecución Local
