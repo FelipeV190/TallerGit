@@ -34,4 +34,13 @@ public class Pedido {
         }
         return calcularTotal() * (1 + impuesto);
     }
+    public double calcularTotalConDescuentoPorVolumen() {
+    double total = calcularTotal();
+
+    if (productos.size() > 5) {
+        return total * 0.90;
+    }
+
+    return total;
+}
 }
