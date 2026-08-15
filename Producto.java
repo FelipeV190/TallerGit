@@ -4,7 +4,7 @@ public class Producto {
 
     public Producto(String nombre, double precio) {
         this.nombre = nombre;
-        this.precio = precio;
+        setPrecio(precio); // Reutilizamos la validación del setter
     }
 
     public String getNombre() {
@@ -20,6 +20,9 @@ public class Producto {
     }
 
     public void setPrecio(double precio) {
+        if (precio < 0) {
+            throw new IllegalArgumentException("El precio no puede ser negativo: " + precio);
+        }
         this.precio = precio;
     }
 }
